@@ -6,6 +6,10 @@
 - coded with Vanila Javascript, CSS, HTML
 - Edited with Visual Studio Code
 
+## How to start
+
+- double click the 'index.html' file to open with your brower
+
 ## Basic Control
 
 - Left arrow : move left
