@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="game-info">
+        <div class="game-end">
+          <p>Game End</p>
+          <button>Retry</button>
+        </div>
+        <div class="game-intro">
+          <p>Welcome to Tetris!</p>
+          <button>Start</button>
+        </div>
+        <div class="game-pause">
+          <p>Game Pause</p>
+          <button>Release Pause</button>
+        </div>
+      </div>
+      <div class="main-ui">
+        <div class="app-name">Tetris</div>
+        <div class="app-info">
+          Score :
+          <span id="score">0</span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Speed : <span id="speed">1</span>/7
+        </div>
+        <div class="playground"><ul></ul></div>
+      </div>
+    </div>
+    <script src="./js/main.js" type="module"></script>
+  </body>
+</html>

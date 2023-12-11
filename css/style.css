@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.main {
+  text-align: center;
+}
+
+.game-end,
+.game-intro,
+.game-pause {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 2rem;
+  color: white;
+}
+.game-end > button,
+.game-intro > button,
+.game-pause > button {
+  margin-top: 30px;
+  padding: 10px 20px;
+  background-color: orange;
+  border: none;
+  font-size: 1.4rem;
+  color: white;
+  cursor: pointer;
+}
+.app-info {
+  margin-bottom: 20px;
+}
+.app-name {
+  font-size: 2.4rem;
+  margin: 20px auto;
+  color: darkcyan;
+}
+.app-info {
+  color: darkblue;
+}
+#score,
+#speed {
+  color: orangered;
+  font-size: 1.4rem;
+}
+
+/* playground */
+ul {
+  list-style: none;
+}
+.playground > ul {
+  margin: 0 auto;
+  width: 275px;
+  border: 1px solid #777;
+}
+.playground > ul > li {
+  height: 25px;
+  width: 100%;
+}
+.playground > ul > li > ul {
+  display: flex;
+}
+.playground > ul > li > ul > li {
+  width: 25px;
+  height: 25px;
+  border: 1px solid #ddd;
+}
+
+/* block color */
+.seized {
+  background-color: #aaa;
+}
+.tree {
+  background-color: green;
+}
+.square {
+  background-color: hotpink;
+}
+.bar {
+  background-color: darkorange;
+}
+.zee {
+  background-color: skyblue;
+}
+.elLeft {
+  background-color: darkcyan;
+}
+.elRight {
+  background-color: rgb(183, 196, 5);
+}
